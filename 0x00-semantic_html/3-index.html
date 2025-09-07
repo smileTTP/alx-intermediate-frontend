@@ -44,6 +44,18 @@
             <h3>Conclusion</h3>
             <p>By adopting semantic HTML, you enhance your site's accessibility, improve SEO, and make the content easier to navigate.</p>
         </section>
+        <section>
+            <form action=”#” method=”POST” aria-labelledby=”form-title” role=”form”>
+                <div>
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" aria-required="true">
+                </div>
+                <div>
+                    <button type="submit" aria-label="Submit the form"></button>
+                </div>
+                <div aria-live="polite" role="alert"></div>
+            </form>
+        </section>
     </main>
     <footer>
         <p>@copyright</p>
