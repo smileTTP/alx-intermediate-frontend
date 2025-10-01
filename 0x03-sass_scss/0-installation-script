@@ -1,0 +1,4 @@
+1- Install sass using npm:
+npm install -g sass 
+2- Verify sass version:
+sass --version 
