@@ -1,0 +1,9 @@
+@mixin set-margins($var) {
+    margin-left: $var;
+    margin-right: $var;
+}
+body {
+    @include set-margins(10px) }
+
+div {
+    @include set-margins(15px) }
